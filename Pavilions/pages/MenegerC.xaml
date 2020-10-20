@@ -1,0 +1,16 @@
+﻿<Page x:Class="Pavilions.pages.MenegerC"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pavilions.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1200"
+      Title="MenegerC">
+
+    <Grid Background="Wheat">
+        <Button Margin="1083,10,32,621" Content="ТЦ" FontSize="30" Click="Button_Click"></Button>
+        <Frame x:Name="menedgerCFrame" Margin="10,103,32,37"></Frame>
+        <TextBlock HorizontalAlignment="Left" FontSize="40" Margin="467,10,0,0" TextWrapping="Wrap" Text="Manager C" VerticalAlignment="Top" Height="69" Width="344"/>
+    </Grid>
+</Page>
